@@ -83,6 +83,11 @@ button {
 
 footer {
     background-color: #1f2937;
+    color: #f9f8fa;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
@@ -134,4 +139,36 @@ blockquote {
     margin-left: 400px;
     font-weight: bold;
     font-size: 24px;
+}
+
+.action {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882f6;
+    width: 700px;
+    height: auto;
+    padding: 30px;
+    border-radius: 8px;
+    justify-content: space-between;
+    color: #e5e7eb;
+    align-items: center;
+}
+
+.modal.left-items {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+}
+
+.modal button {
+    margin-right: 20px;
+    border: 3px solid #e5e7eb;
+    height: 50px;
+    width: 80px;
 }
